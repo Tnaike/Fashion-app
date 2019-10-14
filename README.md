@@ -1,1 +1,1 @@
-# Fashion-app
+# Fashion Management App
