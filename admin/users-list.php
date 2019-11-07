@@ -4,7 +4,7 @@
  ?>
 
         <?php
-            $sql = "SELECT * FROM users ORDER BY created_date DESC";
+            $sql = "SELECT * FROM users WHERE id !=1 ORDER BY created_date DESC";
             $result = mysqli_query($conn, $sql);
             $num_of_results = mysqli_num_rows($result);
         ?> 
