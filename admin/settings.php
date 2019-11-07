@@ -22,7 +22,7 @@
                                         <div class="widget widget-stats">
                                             <div class="widget_icon"><i class="fa fa-user"></i></div>
                                             <h3 class="widget-lbl">Add Member</h3>
-                                            <div class="stats-count numbers"><p><?php echo $userCount; ?></p></div>
+                                            <div class="stats-count numbers"><p><?php echo $userCount-1; ?></p></div>
                                             <p>View members</p>
                                         </div>                                    
                                         </a>
